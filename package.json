@@ -12,12 +12,13 @@
     "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
-  "author": "Solembum05 <kysilivan1997@gmail.com@gmail.com>",
+  "author": "Solembum05",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "flatpickr": "^4.6.13",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
