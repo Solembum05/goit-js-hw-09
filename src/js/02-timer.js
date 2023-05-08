@@ -35,6 +35,7 @@ startBtn.addEventListener('click', onBtnClick);
 startBtn.setAttribute('disabled', 'disabled');
 
 function onBtnClick() {
+  timerInput.setAttribute('disabled', 'disabled');
   timeId = setInterval(() => {
     const currentTime = new Date();
     const deltaTime = dateInputValue - currentTime;
